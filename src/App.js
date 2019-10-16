@@ -6,7 +6,7 @@ export default () => {
     post()
   }, [])
   async function post() {
-    const { data } = await axios.post(`http://localhost:3000/`, {
+    const { data } = await axios.post(`http://localhost:3030/`, {
       'name': 'bill'
     })
     console.log(data)
