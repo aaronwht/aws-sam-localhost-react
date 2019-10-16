@@ -2,11 +2,8 @@ This project is used to post data to it's [companion project](https://github.com
 
 
 In the project directory run:
+`npm i`
 
-### `npm i`
+Then:
 
-Then, after you've already begun running the companion project on port 3000, run the below command.
-
-### `npm start`
-
-You'll be asked to run this app on another port instead (Y/n) . Answer Y
+`npm start`
