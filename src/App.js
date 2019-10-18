@@ -17,8 +17,9 @@ export default () => {
   }
 
   async function postData() {
-    const { data } = await axios.post(`http://localhost:3030/`, {
-      'name': 'bill'
+    const data = await axios.post(`http://localhost:3030/`, {
+      firstName: 'Bill',
+      lastName: 'Smith'
     })
     console.log(data)
   }
